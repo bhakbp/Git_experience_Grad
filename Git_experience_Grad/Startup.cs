@@ -32,7 +32,7 @@ namespace Git_experience_Grad
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync("Hello World!");
+                    await context.Response.WriteAsync("Hello World! how r u");
                 });
             });
         }
